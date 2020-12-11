@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  iris-app:
+    image: jman081894/ds-iris-class:v1
+    ports:
+      - '5000:5000'
+  iris-swagger-app:
+    image: jman081894/ds-iris-class-swagger:v1
+    ports:
+    - '8000:8000'
